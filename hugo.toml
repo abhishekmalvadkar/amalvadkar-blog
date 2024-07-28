@@ -1,4 +1,4 @@
-baseURL = 'https://amalvadkar.netlify.app/'
+baseURL = 'https://abhishekmalvadkar.netlify.app/'
 languageCode = 'en-us'
 title = 'AMalvadkar'
 theme = "wellington"
