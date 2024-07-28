@@ -5,7 +5,7 @@ images: ["/preview-images/welcome-note.webp"]
 type: post
 date : 2024-07-27T18:55:27+05:30
 url: "/welcome-note/"
-draft : true
+draft : false
 categories:
   - Java
 tags:
