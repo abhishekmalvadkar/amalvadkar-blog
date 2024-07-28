@@ -3,7 +3,6 @@ languageCode = 'en-us'
 title = 'AMalvadkar'
 theme = "wellington"
 googleAnalytics = ""
-enableRobotsTXT = true
 
 [params]
   author = "Abhishek"
