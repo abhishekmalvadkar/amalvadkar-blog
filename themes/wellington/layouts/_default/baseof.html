@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+
+    {{/*  This ensures that the meta description is dynamically and appropriately set for each page, improving the SEO of your site by providing relevant descriptions for search engines.  */}}
+    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
+    
+    {{/*  This template code dynamically sets the HTML document's <title> based on whether the current page is the home page or another page:  */}}
+    {{ if .IsHome }}
+    <title>{{ .Site.Params.Subtitle }}</title>
+    {{ else }}
+    <title>{{ with .Params.Title }}{{ . }} | {{ end }}{{ .Site.Title }}</title>
+    {{ end }}
+
+    <link rel="canonical" href="{{ .Permalink }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700&display=swap" rel="stylesheet">
+
+    {{ template "_internal/twitter_cards.html" . }}
+    {{ with .Site.Params.twitter -}}<meta name="twitter:creator" content="@{{ . }}"/>
+    {{ end -}}
+
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="{{ .Site.Params.publisher }}" />
+    {{ template "_internal/opengraph.html" . }}
+    {{ template "_internal/schema.html" . }}
+
+    <link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" media='all'/>
+
+    {{ $CSS := resources.Match "css/**.css" | resources.Concat "main.css"  | resources.Minify }}
+    <link rel='stylesheet' href="{{ $CSS.RelPermalink }}" type='text/css' media='all'/>
+
+    <link rel="shortcut icon" href="{{ "favicon.ico" | relURL }}" type="image/x-icon" />
+
+    {{ with .OutputFormats.Get "RSS" }}
+    <link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
+    <link href="{{ .RelPermalink }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
+    {{ end }}
+
+    {{/*  This code ensures that the Google Analytics tracking script is only included in your site if:
+    A Google Analytics ID is specified in the site's configuration and
+    The site is not being viewed on a localhost (development) URL.
+    Hugo automatically knows to look for the googleAnalytics parameter and use the internal template _internal/google_analytics.html to add the necessary tracking code to your site.
+    */}}
+    {{ if (not (eq .Site.GoogleAnalytics "")) }}
+    {{ if not (in (printf "%#v" .Site.BaseURL) "localhost") }}
+    {{ template "_internal/google_analytics.html" . }}
+    {{ end }}
+    {{ end }}
+
+    {{/* This code snippet in Hugo is used to add structured data (in JSON-LD format) to your website for SEO purposes. Structured data helps search engines understand the content and context of your pages better.  */}}
+    {{ partial "site-schema.html" . }}
+
+    {{/* This script tag loads the Google AdSense library asynchronously, ensuring that the ad-related functionalities are fetched and executed without delaying the rendering of your webpage. The client parameter ensures that the ads served are associated with your specific AdSense account, allowing you to earn revenue from the ads displayed on your site. script will be added if AdSenseClient id is set in config file  */}}
+    {{ if (not (eq .Site.Params.AdSenseClient "")) }}
+    <script async 
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ .Site.Params.AdSenseClient }}"
+            crossorigin="anonymous"></script>
+    {{ end }}
+
+</head>
+<body class="home blog post-layout-one-column">
+    <button onclick="topFunction()" id="scrollTopBtn" title="Go to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <div id="header-top" class="header-bar-wrap"></div>
+    <div id="page" class="site">
+        <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+        {{ partial "header.html" . }}
+        <div id="content" class="site-content container clearfix">
+            {{ block "main" . }} {{ end }}
+        </div>
+        <div id="footer" class="footer-wrap">
+            {{ partial "footer.html" . }}
+        </div>
+    </div>
+
+    {{/* The purpose of this code is to optimize JavaScript resources in your Hugo project by concatenating multiple JavaScript files into a single file (main.js) and minifying it. This optimization improves the performance of your website by reducing the number of HTTP requests and decreasing the total size of JavaScript files that need to be loaded.  */}}
+    {{- $JS := slice (resources.Get "js/jquery-1.12.4.min.js") (resources.Get "js/html5shiv.min.js") (resources.Get "js/navigation.min.js") (resources.Get "js/custom.min.js") | resources.Concat "main.js" | resources.Minify }}
+    <script type='text/javascript' src="{{ $JS.RelPermalink }}"></script>
+
+<!--    {{ if (findRE "<pre" .Content 1) }}-->
+<!--    {{ $jsCopy := resources.Get "js/copy-code-button.js" | resources.Minify }}-->
+<!--    <script src="{{ $jsCopy.RelPermalink }}"></script>-->
+<!--    {{ end }}-->
+
+</body>
+</html>

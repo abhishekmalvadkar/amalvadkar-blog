@@ -1,0 +1,18 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'AMalvadkar'
+theme = "wellington"
+googleAnalytics = ""
+
+[params]
+  author = "Abhishek"
+  subtitle = "Java, Spring Boot, Microservices, JPA Tutorials"
+  description = "Java, Spring Boot, JPA, Hibernate, SQL, REST API, Microservices, Architecture, CI/CD, Docker Tutorials"
+  publisher = "AMalvadkar"
+  images = ['/raw-images/abhi.jpg']
+  facebook = ""
+  AdSenseClient = ""
+  twitter = "malvadkarabhi"
+  youtube = "@abhishekmalvadkar1896"
+  github = "abhishekmalvadkar"
+  linkedin = ""
