@@ -4,6 +4,7 @@ title = 'AMalvadkar'
 theme = "wellington"
 googleAnalytics = ""
 enableRobotsTXT = true
+enableEmoji = true
 
 [params]
   author = "Abhishek"
