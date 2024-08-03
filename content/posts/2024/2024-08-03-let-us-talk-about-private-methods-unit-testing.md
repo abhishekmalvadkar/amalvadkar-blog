@@ -6,7 +6,9 @@ date : 2024-08-03T17:30:10+05:30
 url: "/let-us-talk-about-private-methods-unit-testing/"
 images: ["/preview-images/private-method-unit-testing.webp"]
 toc: true
-draft : true
+draft : false
+categories: [testing]
+tags: [unit testing]
 ---
 
 ## Introduction
