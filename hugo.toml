@@ -18,3 +18,9 @@ enableEmoji = true
   youtube = "@abhishekmalvadkar1896"
   github = "abhishekmalvadkar"
   linkedin = ""
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
