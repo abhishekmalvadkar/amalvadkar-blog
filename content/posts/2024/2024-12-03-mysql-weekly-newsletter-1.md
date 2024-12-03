@@ -28,5 +28,21 @@ Please feel free to read these nice blogs in order to extend your mysql skills.
 * Create stored procedure which will give you random quote from quotes table
 * Inside stored procedure use rand_between() function on min quoteId and max quoteId
 
+### Solution Hint
+
+<details>
+  <summary>Click to expand and view the solution</summary>
+  
+```sql
+set @minQuoteId = (select min(q.id) from quote q);
+set @maxQuoteId = (select max(q.id) from quote q);
+set @rand_quote_id = (select rand_between(
+	@minQuoteId, @maxQuoteId****
+));
+
+select * from quote q where q.id = @rand_quote_id;
+```
+</details>
+
 
 Happy coding :grinning:
