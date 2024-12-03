@@ -31,7 +31,7 @@ Please feel free to read these nice blogs in order to extend your mysql skills.
 ### Solution Hint
 
 <details>
-  <summary>Click to expand and view the solution</summary>
+  <summary style="cursor: pointer; font-weight: bold;">▶ Click to expand and view the solution</summary>
   
 ```sql
 set @minQuoteId = (select min(q.id) from quote q);
