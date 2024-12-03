@@ -4,6 +4,7 @@ author: Abhishek
 type: post
 date : 2024-12-03T00:00:00+05:30
 url: "/mysql-weekly-newsletter-1/"
+toc: true
 draft : false
 categories: [mysql weekly newsletter]
 tags: [mysql weekly newsletter]
