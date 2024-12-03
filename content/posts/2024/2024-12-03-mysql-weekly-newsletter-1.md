@@ -37,7 +37,7 @@ Please feel free to read these nice blogs in order to extend your mysql skills.
 set @minQuoteId = (select min(q.id) from quote q);
 set @maxQuoteId = (select max(q.id) from quote q);
 set @rand_quote_id = (select rand_between(
-	@minQuoteId, @maxQuoteId****
+	@minQuoteId, @maxQuoteId
 ));
 
 select * from quote q where q.id = @rand_quote_id;
