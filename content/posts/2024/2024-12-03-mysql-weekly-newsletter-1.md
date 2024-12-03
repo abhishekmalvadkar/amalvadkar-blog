@@ -3,7 +3,7 @@ title : 'MySQL Weekly Newsletter - 1'
 author: Abhishek
 type: post
 date : 2024-12-03T19:13:14+05:30
-url: "/mysql_weekly_newsletter_1/"
+url: "/mysql-weekly-newsletter-1/"
 draft : false
 categories: [mysql weekly newsletter]
 tags: [mysql weekly newsletter]
