@@ -19,8 +19,5 @@ enableEmoji = true
   github = "abhishekmalvadkar"
   linkedin = ""
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+
 
