@@ -50,11 +50,13 @@ FROM
 ```
 
 ### Result
+{{< responsive-table >}}
 | AccountID | InterestEarned | TruncatedInterest |
 |-----------|----------------|-------------------|
 | 1         | 123.45678      | 123.45            |
 | 2         | 89.12345       | 89.12             |
 | 3         | 56.78912       | 56.78             |
+{{< /responsive-table >}}
 
 ## Use Case Explanation
 1. **Precise Display:** The truncated values are displayed as per the bank's requirements, ensuring no rounding occurs.
