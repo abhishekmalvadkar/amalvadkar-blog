@@ -13,7 +13,8 @@ tags: [mysql weekly newsletter]
 Welcome to 2nd installment of mysql weekely newsletter, please have a look below nice mysql blogs which will
 help you to craft your mysql skiils
 
-### Nice blogs
+## Nice blogs
+
 
 * [MySQL Sample Database](https://www.mysqltutorial.org/getting-started-with-mysql/mysql-sample-database/)
 * [How to Load the Sample Database into MySQL Server](https://www.mysqltutorial.org/getting-started-with-mysql/how-to-load-sample-database-into-mysql-database-server/)
