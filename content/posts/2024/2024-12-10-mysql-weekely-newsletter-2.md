@@ -15,5 +15,6 @@ help you to craft your mysql skiils
 
 ### Nice blogs
 
+* [MySQL Sample Database](https://www.mysqltutorial.org/getting-started-with-mysql/mysql-sample-database/)
 * [How to Load the Sample Database into MySQL Server](https://www.mysqltutorial.org/getting-started-with-mysql/how-to-load-sample-database-into-mysql-database-server/)
 
