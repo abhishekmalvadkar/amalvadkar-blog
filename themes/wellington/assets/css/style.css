@@ -1811,3 +1811,39 @@ object {
 		}
 	}
 }
+
+/* My custom css */
+.responsive-table {
+    overflow-x: auto;
+    margin: 0 auto;
+    padding: 10px; /* Add padding to create space */
+}
+
+table {
+    width: 100%; /* Ensure the table stretches to fit the container */
+    border-collapse: collapse;
+    margin-bottom: 20px; /* Space below the table */
+}
+
+th, td {
+    padding: 12px 15px; /* Add padding for better spacing */
+    text-align: left;
+    border: 1px solid #ddd; /* Add borders for clarity */
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+th {
+    background-color: #f4f4f4; /* Light background for headers */
+    font-weight: bold;
+}
+
+td {
+    background-color: #ffffff; /* Consistent background color */
+}
+
+@media (max-width: 768px) {
+    td, th {
+        font-size: 14px; /* Adjust font size for smaller screens */
+        padding: 8px 10px; /* Slightly smaller padding */
+    }
+}
