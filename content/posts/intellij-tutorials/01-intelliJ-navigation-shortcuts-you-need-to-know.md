@@ -20,24 +20,23 @@ then you need to read more code to understand it's behaviour properly and to do 
 
 ## Navigation Shortcuts
 
-# Keyboard Shortcuts
+### Navigation & Editing
 
-## Navigation & Editing
+- **`Ctrl + B`**: **Go to declaration / usage**
+- **`Ctrl + Alt + B`**: **Go to implementations**
+- **`Ctrl + U`**: **Go to super method**
+- **`Ctrl + Alt + Left/Right`**: **Go back / forward**
+- **`Ctrl + N`**: **Go to class**
+- **`Ctrl + Shift + N`**: **Go to file**
+- **`Shift + Shift`**: **Find all**
 
-- **`Ctrl + B`**: Go to declaration / usage
-- **`Ctrl + Alt + B`**: Go to implementations
-- **`Ctrl + U`**: Go to super method
-- **`Ctrl + Alt + Left/Right`**: Go back / forward
-- **`Ctrl + N`**: Go to class
-- **`Ctrl + Shift + N`**: Go to file
-- **`Shift + Shift`**: Find all
+### Views & Focus
 
-## Views & Focus
+- **`Alt + 1`**: **Project view**
+- **`Esc`**: **Focus editor**
+- **`Alt + F1 + Enter`**: **Jump to file in project view**
+- **`Alt + Left/Right`**: **Switch open editor tabs**
 
-- **`Alt + 1`**: Project view
-- **`Esc`**: Focus editor
-- **`Alt + F1 + Enter`**: Jump to file in project view
-- **`Alt + Left/Right`**: Switch open editor tabs
 
 
 
