@@ -22,24 +22,21 @@ then you need to read more code to understand it's behaviour properly and to do 
 
 ### Navigation & Editing
 
-| Shortcut                                | Action                          |
-|-----------------------------------------|---------------------------------|
-| `Ctrl + B` or `⌘ B`                    | Go to declaration / usage      |
-| `Ctrl + Alt + B` or `⌥ ⌘ B`            | Go to implementations          |
-| `Ctrl + U` or `⌘ U`                    | Go to super method             |
-| `Ctrl + Alt + Left/Right` or `⌘ [ / ]`  | Go back / forward              |
-| `Ctrl + N` or `⌘ O`                    | Go to class                    |
-| `Ctrl + Shift + N` or `⇧ ⌘ O`          | Go to file                     |
-| `Shift + Shift`                         | Find all                       |
+- **`Ctrl + B`** or **`⌘ B`**: Go to declaration / usage
+- **`Ctrl + Alt + B`** or **`⌥ ⌘ B`**: Go to implementations
+- **`Ctrl + U`** or **`⌘ U`**: Go to super method
+- **`Ctrl + Alt + Left/Right`** or **`⌘ [ / ]`**: Go back / forward
+- **`Ctrl + N`** or **`⌘ O`**: Go to class
+- **`Ctrl + Shift + N`** or **`⇧ ⌘ O`**: Go to file
+- **`Shift + Shift`**: Find all
 
 ### Views & Focus
 
-| Shortcut                                | Action                          |
-|-----------------------------------------|---------------------------------|
-| `Alt + 1` or `⌘ 1`                     | Project view                   |
-| `Esc`                                   | Focus editor                   |
-| `Alt + F1 + Enter` or `⌥ F1`            | Jump to file in project view   |
-| `Alt + Left/Right` or `⇧ ⌘ ] / [`       | Switch open editor tabs        |
+- **`Alt + 1`** or **`⌘ 1`**: Project view
+- **`Esc`**: Focus editor
+- **`Alt + F1 + Enter`** or **`⌥ F1`**: Jump to file in project view
+- **`Alt + Left/Right`** or **`⇧ ⌘ ] / [`**: Switch open editor tabs
+
 
 That's it for today, let's meet in next episode.
 
