@@ -20,22 +20,25 @@ then you need to read more code to understand it's behaviour properly and to do 
 
 ## Navigation Shortcuts
 
-### Navigation & Editing
+# Keyboard Shortcuts
 
-- **`Ctrl + B`** or **`⌘ B`**: Go to declaration / usage
-- **`Ctrl + Alt + B`** or **`⌥ ⌘ B`**: Go to implementations
-- **`Ctrl + U`** or **`⌘ U`**: Go to super method
-- **`Ctrl + Alt + Left/Right`** or **`⌘ [ / ]`**: Go back / forward
-- **`Ctrl + N`** or **`⌘ O`**: Go to class
-- **`Ctrl + Shift + N`** or **`⇧ ⌘ O`**: Go to file
+## Navigation & Editing
+
+- **`Ctrl + B`**: Go to declaration / usage
+- **`Ctrl + Alt + B`**: Go to implementations
+- **`Ctrl + U`**: Go to super method
+- **`Ctrl + Alt + Left/Right`**: Go back / forward
+- **`Ctrl + N`**: Go to class
+- **`Ctrl + Shift + N`**: Go to file
 - **`Shift + Shift`**: Find all
 
-### Views & Focus
+## Views & Focus
 
-- **`Alt + 1`** or **`⌘ 1`**: Project view
+- **`Alt + 1`**: Project view
 - **`Esc`**: Focus editor
-- **`Alt + F1 + Enter`** or **`⌥ F1`**: Jump to file in project view
-- **`Alt + Left/Right`** or **`⇧ ⌘ ] / [`**: Switch open editor tabs
+- **`Alt + F1 + Enter`**: Jump to file in project view
+- **`Alt + Left/Right`**: Switch open editor tabs
+
 
 
 That's it for today, let's meet in next episode.
