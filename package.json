@@ -6,7 +6,8 @@
   "scripts": {
     "hugo:serve": "hugo server -D",
     "images:optimize": "node scripts/optimize-images.mjs",
-    "dev": "npm run images:optimize && npm run hugo:serve"
+    "dev": "npm run images:optimize && npm run hugo:serve",
+    "core": "npm run hugo:serve"
   },
   "author": "",
   "license": "ISC",
