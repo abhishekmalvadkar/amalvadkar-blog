@@ -37,6 +37,16 @@ guide teams in improving their development practices. Through her blog, podcast 
 popular weekly newsletter, Michaela shares insights on code quality, team effectiveness, and modern software
 engineering.
 
+### 3. Valentina Servile
+
+[Valentina Servile](https://oooops.dev/about/)  
+Valentina Servile is a full-stack software developer and software craftswoman who lives by the principle: *“I like to
+write clean code and deploy it continuously.”* Her blog reflects a deep commitment to quality, with a strong foundation
+in Agile methodologies, Test-Driven Development (TDD), Extreme Programming, and DevOps practices. Currently a Lead
+Developer at ThoughtWorks, Valentina works on large distributed systems and advises teams on improving their software
+delivery lifecycle. Her writing offers valuable insights into continuous delivery, clean code, and modern software
+architecture.
+
 ## Final Thoughts
 
 These blogs represent a variety of perspectives and specializations in software development. I’ll be updating this list
