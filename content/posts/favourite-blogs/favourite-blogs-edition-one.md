@@ -47,6 +47,16 @@ Developer at ThoughtWorks, Valentina works on large distributed systems and advi
 delivery lifecycle. Her writing offers valuable insights into continuous delivery, clean code, and modern software
 architecture.
 
+### 4. Maurício Aniche
+
+[Maurício Aniche](https://mauricioaniche.com/)  
+Maurício Aniche is a hands-on tech lead at Adyen, where he leads the Testing Enablement team—focused on empowering
+engineers with the tools and practices they need to ensure software quality at scale. With a PhD in Computer Science and
+a former role as assistant professor at TU Delft, Maurício blends academic research with real-world engineering. He has
+authored several books, including *Effective Software Testing* and *Simple Object-Oriented Design*, and was named TU
+Delft's 2021 Teacher of the Year in Computer Science. His blog covers software testing, design principles, and
+strategies for evolving high-quality systems.
+
 ## Final Thoughts
 
 These blogs represent a variety of perspectives and specializations in software development. I’ll be updating this list
