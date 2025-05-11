@@ -30,7 +30,6 @@ In real-world unit testing, object creation often becomes a bottleneck, especial
 - Slight variations between test cases make object creation verbose and brittle.
 
 ```java
-
 @Test
 void should_create_user_with_valid_data() {
     User user = new User(
@@ -48,7 +47,6 @@ void should_create_user_with_valid_data() {
 ## 2. Solution: Test Data Builders
 
 ```java
-
 @Test
 void should_create_user_with_valid_data() {
     User user = aUser().withEmail("john.doe@example.com").build();

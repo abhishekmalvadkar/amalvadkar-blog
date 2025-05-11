@@ -49,7 +49,6 @@ Mocks are typically used when we need to verify interactions with a dependency. 
 method calls and verify that those expectations are met.
 
 ```java
-
 @Test
 void should_return_user_when_found() {
     // Arrange
@@ -76,7 +75,6 @@ Stubs provide fixed responses for methods but do not check interactions. They ar
 data returned from a dependency without verifying how it was used.
 
 ```java
-
 @Test
 void should_return_discounted_price() {
     // Arrange
@@ -101,7 +99,6 @@ Spies are like mocks but with a twist—they allow us to spy on real objects. Yo
 interactions after the test has run.
 
 ```java
-
 @Test
 void should_log_price_calculation() {
     // Arrange
@@ -124,7 +121,6 @@ the log() method was called with the expected message.
 Fakes provide a simplified version of a dependency. A common example is using an in-memory database in tests.
 
 ```java
-
 @Test
 void should_save_and_retrieve_user() {
     // Arrange
@@ -150,7 +146,6 @@ Dummies are used when you need an object to fulfill a method signature but it is
 typically placeholders.
 
 ```java
-
 @Test
 void should_process_order_with_dummy_payment() {
     // Arrange
