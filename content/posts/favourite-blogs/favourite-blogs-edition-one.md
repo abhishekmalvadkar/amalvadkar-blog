@@ -41,11 +41,11 @@ engineering.
 
 [Valentina Servile](https://oooops.dev/about/)  
 Valentina Servile is a full-stack software developer and software craftswoman who lives by the principle: *“I like to
-write clean code and deploy it continuously.”* Her blog reflects a deep commitment to quality, with a strong foundation
-in Agile methodologies, Test-Driven Development (TDD), Extreme Programming, and DevOps practices. Currently a Lead
-Developer at ThoughtWorks, Valentina works on large distributed systems and advises teams on improving their software
-delivery lifecycle. Her writing offers valuable insights into continuous delivery, clean code, and modern software
-architecture.
+write clean code and deploy it continuously.”*She is the author of the book *Continuous Deployment*, where she shares
+practical strategies for releasing software safely and frequently.Currently a Lead Developer at ThoughtWorks, she works
+on large distributed systems and mentors teams on improving software delivery.Her expertise includes Agile
+methodologies, TDD, Extreme Programming, and DevOps practices.Her blog offers valuable insights into clean code,
+continuous delivery, and building maintainable systems. architecture.
 
 ### 4. Maurício Aniche
 
@@ -56,6 +56,15 @@ a former role as assistant professor at TU Delft, Maurício blends academic rese
 authored several books, including *Effective Software Testing* and *Simple Object-Oriented Design*, and was named TU
 Delft's 2021 Teacher of the Year in Computer Science. His blog covers software testing, design principles, and
 strategies for evolving high-quality systems.
+
+### 5. Michael Feathers
+
+[Michael Feathers](https://michaelfeathers.silvrback.com/bio)  
+Michael Feathers is a renowned software expert and the author of *Working Effectively with Legacy Code* and the upcoming
+book *AI-Assisted Programming*.He is the founder of R7K Research & Conveyance, focusing on software and organizational
+design.  
+His expertise includes legacy code, refactoring, testability, and software evolution.Michael advocates for improving
+code through testing, and explores how AI can support modern development practices.
 
 ## Final Thoughts
 
