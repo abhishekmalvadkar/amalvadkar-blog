@@ -30,6 +30,17 @@ new functionality. Once the code is easier to modify, we can implement the new f
 way. This approach helps in avoiding large, complicated changes and makes the process smoother and more maintainable in
 the long run.
 
+### 2. The only way to go fast, is to go well
+
+**Author:** Robert C. Martin (Uncle Bob)
+
+**Description:**  
+This quote emphasizes that taking shortcuts in software development, especially during refactoring, might seem like a
+quick solution, but it often leads to problems down the road. Refactoring is about improving the structure of existing
+code without changing its behavior, and doing this properly can improve long-term speed and efficiency. By going well,
+or refactoring thoughtfully, we create a more maintainable and flexible system, which ultimately speeds up future
+development and reduces technical debt.
+
 ## Final Thoughts
 
 Great technical quotes serve as timeless mentors. They encapsulate valuable lessons in a few words and often become
