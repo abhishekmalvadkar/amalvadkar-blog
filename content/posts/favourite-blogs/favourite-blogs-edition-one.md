@@ -66,6 +66,17 @@ design.
 His expertise includes legacy code, refactoring, testability, and software evolution.Michael advocates for improving
 code through testing, and explores how AI can support modern development practices.
 
+### 6. Felienne Hermans
+
+[Felienne Hermans](https://www.felienne.com/)  
+Felienne Hermans is a full professor of Computer Science Education at the Vrije Universiteit Amsterdam and the author of
+*The Programmer’s Brain*, where she explores the cognitive aspects of learning and understanding code. With her
+expertise in programming education, Felienne is also the creator of the Hedy programming language, designed to teach
+kids programming. Her research focuses on how our brains process code, and she has co-founded the Joy of Coding
+conference, hosts the Software Engineering Radio podcast, and was awarded the Dutch Prize for ICT Research in 2021.
+
+> “Understanding what makes code readable from a cognitive perspective will help you design better.”
+
 ## Final Thoughts
 
 These blogs represent a variety of perspectives and specializations in software development. I’ll be updating this list
