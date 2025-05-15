@@ -6,8 +6,8 @@ date: 2025-05-15T11:12:51+05:30
 url: "/big-ball-of-mud/"
 toc: true
 draft: false
-categories: [ "architecture" ]
-tags: [ "architecture" ]
+categories: [ "architecture", "system design" ]
+tags: [ "architecture" , "low level design"]
 ---
 
 A few years ago, I joined a fast-growing startup. Their Spring Boot application was core to the business, but every new

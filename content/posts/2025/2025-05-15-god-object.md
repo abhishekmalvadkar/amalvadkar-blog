@@ -1,24 +1,30 @@
 ---
-title : 'God Object'
+title: 'God Object'
 author: Abhishek
 type: post
-date : 2025-05-15T11:28:56+05:30
+date: 2025-05-15T11:28:56+05:30
 url: "/god-object/"
 toc: true
 draft: false
-categories: [ "architecture" ]
-tags: [ "architecture" ]
+categories: [ "architecture" , "system design" ]
+tags: [ "architecture" , "low level design" ]
 ---
 
-A few months ago, I was asked to debug a production issue in a legacy Spring Boot system. I opened the codebase and found a single class named `ApplicationManager` with over 3,000 lines of code. This class was doing **everything**—managing database connections, sending emails, calculating business rules, formatting reports, and even responding to web requests.
+A few months ago, I was asked to debug a production issue in a legacy Spring Boot system. I opened the codebase and
+found a single class named `ApplicationManager` with over 3,000 lines of code. This class was doing **everything**
+—managing database connections, sending emails, calculating business rules, formatting reports, and even responding to
+web requests.
 
-It felt like the whole application had only one brain—this **God Object**. Any change, no matter how small, risked breaking five other things. I realized I wasn’t working with a modular system—I was working with a deity.
+It felt like the whole application had only one brain—this **God Object**. Any change, no matter how small, risked
+breaking five other things. I realized I wasn’t working with a modular system—I was working with a deity.
 
-##  Problem – What is a God Object?
+## Problem – What is a God Object?
 
-A **God Object** (also called God Class) is an object that knows too much or does too much. It centralizes the intelligence of a system into one massive class, violating the principles of object-oriented design.
+A **God Object** (also called God Class) is an object that knows too much or does too much. It centralizes the
+intelligence of a system into one massive class, violating the principles of object-oriented design.
 
 ### Symptoms of a God Object:
+
 - Very large classes (thousands of lines)
 - Too many responsibilities
 - Manipulates many unrelated objects
@@ -40,6 +46,7 @@ A **God Object** (also called God Class) is an object that knows too much or doe
 ### Bad Example – God Object in Spring Boot
 
 ```java
+
 @Component
 public class ApplicationManager {
 
@@ -75,6 +82,7 @@ public class ApplicationManager {
 ```
 
 #### Problems:
+
 - This class handles user logic, report generation, cleanup, and more.
 - It's tightly coupled to many services.
 - It is impossible to reuse or test parts of it independently.
@@ -88,6 +96,7 @@ Break the god object into well-defined services.
 #### `UserService.java`
 
 ```java
+
 @Service
 public class UserService {
 
@@ -114,6 +123,7 @@ public class UserService {
 #### `ReportService.java`
 
 ```java
+
 @Service
 public class ReportService {
 
@@ -124,6 +134,7 @@ public class ReportService {
 ```
 
 #### Benefits:
+
 - Each class has a single responsibility.
 - Easier to test, maintain, and extend.
 - Encourages separation of concerns.
@@ -139,7 +150,9 @@ public class ReportService {
 
 ## Final Thoughts
 
-The God Object might feel productive at first—it centralizes logic and keeps things “in one place.” But over time, it slows down development, spreads bugs, and paralyzes the system. In a microservices world, we favor composability and independence—not divine complexity.
+The God Object might feel productive at first—it centralizes logic and keeps things “in one place.” But over time, it
+slows down development, spreads bugs, and paralyzes the system. In a microservices world, we favor composability and
+independence—not divine complexity.
 
 Break your gods into humble, focused services—and your team will thank you.
 
