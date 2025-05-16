@@ -76,6 +76,29 @@ Once the request is processed, the thread is released back to the pool for reuse
 * **Acceptor Thread**: Picks up socket connections.
 * **Worker Threads**: Execute actual request logic.
 
+## What Happens When the Queue Times Out?
+
+When all worker threads are busy and the number of pending requests exceeds the `accept-count` (i.e., the request queue size), Tomcat starts rejecting new requests. Here's how it unfolds:
+
+1. **Thread Pool Saturation**: All threads (up to `max-threads`) are actively handling requests.
+2. **Queue Fill-up**: New incoming requests wait in a queue (up to `accept-count`).
+3. **Timeout or Rejection**:
+
+    * If the queue is full and new requests come in, they are immediately rejected with an HTTP 503 (Service Unavailable).
+    * If a request sits too long in the queue and the client-side timeout expires (or load balancer timeout), the client gives up and the request is dropped.
+
+### Real-World Scenario
+
+Imagine your API has:
+
+```properties
+server.tomcat.max-threads=200
+server.tomcat.accept-count=100
+```
+
+* Total capacity = 200 active + 100 queued
+* On the 301st concurrent request, Tomcat returns 503 unless a running thread becomes free
+
 ## Examples and Detailed Explanation
 
 ### Example 1: Default Spring Boot Setup
