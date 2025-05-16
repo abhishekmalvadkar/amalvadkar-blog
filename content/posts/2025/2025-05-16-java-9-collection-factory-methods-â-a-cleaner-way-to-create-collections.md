@@ -1,5 +1,5 @@
 ---
-title: 'Java 9 Collection Factory Methods: Â a Cleaner Way to Create Collections'
+title: 'Java 9 Collection Factory Methods: A Cleaner Way to Create Collections'
 author: Abhishek
 type: post
 date: 2025-05-16T11:37:07+05:30
