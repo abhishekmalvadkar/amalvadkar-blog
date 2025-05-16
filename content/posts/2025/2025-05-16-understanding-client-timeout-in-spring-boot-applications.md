@@ -90,7 +90,7 @@ public RestTemplate restTemplate() {
 }
 ```
 
-### 4. **Feign Client Timeout**
+### 4. Feign Client Timeout
 
 ```yaml
 feign:
