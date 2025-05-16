@@ -6,7 +6,7 @@ date: 2025-05-16T10:13:14+05:30
 url: "/mastering-jpa-static-metamodel-type-safe-criteria-queries-in-java/"
 toc: true
 draft: false
-categories: [ "JPA", "Persistence" ]
+categories: [ "JPA"]
 tags: [ "jpa-metamodel" ]
 ---
 

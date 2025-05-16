@@ -4,6 +4,8 @@ author: Abhishek
 type: post
 date: 2025-05-16T12:50:17+05:30
 url: "/exploring-jpa-dynamic-metamodel-runtime-metadata-for-flexible-queries/"
+toc: true
+draft: false
 categories: [ "JPA" ]
 tags: [ "jpa-metamodel" ]
 ---
