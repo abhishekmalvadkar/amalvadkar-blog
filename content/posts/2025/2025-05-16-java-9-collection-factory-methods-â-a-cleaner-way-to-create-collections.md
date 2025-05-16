@@ -4,6 +4,7 @@ author: Abhishek
 type: post
 date: 2025-05-16T11:37:07+05:30
 url: "/java-9-collection-factory-methods-â-a-cleaner-way-to-create-collections/"
+toc: true
 draft: false
 categories: [ "java" ]
 tags: [ "java-9-features" ]

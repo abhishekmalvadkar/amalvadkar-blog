@@ -4,6 +4,7 @@ author: Abhishek
 type: post
 date: 2025-05-16T11:26:31+05:30
 url: "/understanding-client-timeout-in-spring-boot-applications/"
+toc: true
 draft: false
 categories: [ "system design", "spring boot" ]
 tags: [ "high-level-design" ]
