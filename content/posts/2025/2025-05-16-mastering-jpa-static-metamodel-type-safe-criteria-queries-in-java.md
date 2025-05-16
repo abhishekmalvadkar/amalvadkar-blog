@@ -1,9 +1,9 @@
 ---
-title: 'Mastering Jpa Dynamic Metamodel: Type Safe Criteria Queries in Java'
+title: 'Mastering Jpa Static Metamodel: Type Safe Criteria Queries in Java'
 author: Abhishek
 type: post
 date: 2025-05-16T10:13:14+05:30
-url: "/mastering-jpa-dynamic-metamodel-type-safe-criteria-queries-in-java/"
+url: "/mastering-jpa-static-metamodel-type-safe-criteria-queries-in-java/"
 toc: true
 draft: false
 categories: [ "JPA", "Persistence" ]
@@ -16,7 +16,7 @@ introducing bugs. A junior developer on our team attempted to rename a field ref
 query. The build passed, but the runtime blew up with a `Path expected for join` exception—because the field name was
 wrong and the compiler had no way to catch it.
 
-That's when we discovered the JPA **Dynamic Metamodel**. It was like discovering type safety in a world of
+That's when we discovered the JPA **Static Metamodel**. It was like discovering type safety in a world of
 stringly-typed chaos.
 
 ## Problem: String-Based Criteria Queries
@@ -34,9 +34,9 @@ criteriaBuilder.equal(root.get("username"), "john_doe")
 * **Difficult to maintain**: Large queries become hard to read and refactor.
 * **No IDE support**: No autocomplete, no refactor tools.
 
-## Solution: JPA Dynamic Metamodel
+## Solution: JPA Static Metamodel
 
-JPA's **Dynamic Metamodel** solves these issues by generating a class for each entity at compile time with static field
+JPA's **Static Metamodel** solves these issues by generating a class for each entity at compile time with static field
 references for all attributes.
 
 ### Required Maven Dependency
@@ -166,14 +166,14 @@ public List<User> search(String username, String email) {
 
 ## Final Thoughts
 
-The JPA Dynamic Metamodel brings the safety net of the compiler into the world of dynamic queries. It’s especially
+The JPA Static Metamodel brings the safety net of the compiler into the world of static queries. It’s especially
 powerful in enterprise applications where complex queries are built programmatically. With a small learning curve, it
 can save hours of debugging and improve long-term maintainability.
 
 ## Summary
 
 * String-based queries in Criteria API are error-prone.
-* JPA Dynamic Metamodel introduces type-safe field references.
+* JPA Static Metamodel introduces type-safe field references.
 * Use metamodel classes like `User_.username` instead of raw strings.
 * Improve refactorability, IDE support, and compile-time safety.
 * Avoid anti-patterns like mixing raw strings with metamodels.
