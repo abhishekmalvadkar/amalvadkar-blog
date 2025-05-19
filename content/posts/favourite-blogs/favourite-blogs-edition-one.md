@@ -77,6 +77,15 @@ conference, hosts the Software Engineering Radio podcast, and was awarded the Du
 
 > “Understanding what makes code readable from a cognitive perspective will help you design better.”
 
+### 7. Srihari Sridharan
+
+[Srihari Sridharan’](https://srihari-sridharan.medium.com/)  
+Srihari Sridharan is a Software Architect and Engineer known for his hands-on approach to building high-quality
+software. He is a passionate speaker and trainer, regularly conducting courses and talks on software craftsmanship,
+clean code practices, and architectural excellence. His areas of expertise include refactoring, design patterns,
+enterprise application architecture, integration patterns, and cloud-native design. Srihari is also the author of the
+book *Craft Your Code*, which emphasizes raising the bar for software quality and developer professionalism.
+
 ## Final Thoughts
 
 These blogs represent a variety of perspectives and specializations in software development. I’ll be updating this list
