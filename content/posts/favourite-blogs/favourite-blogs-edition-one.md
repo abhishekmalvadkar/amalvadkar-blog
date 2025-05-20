@@ -79,12 +79,22 @@ conference, hosts the Software Engineering Radio podcast, and was awarded the Du
 
 ### 7. Srihari Sridharan
 
-[Srihari Sridharan’](https://srihari-sridharan.medium.com/)  
+[Srihari Sridharan](https://srihari-sridharan.medium.com/)  
 Srihari Sridharan is a Software Architect and Engineer known for his hands-on approach to building high-quality
 software. He is a passionate speaker and trainer, regularly conducting courses and talks on software craftsmanship,
 clean code practices, and architectural excellence. His areas of expertise include refactoring, design patterns,
 enterprise application architecture, integration patterns, and cloud-native design. Srihari is also the author of the
 book *Craft Your Code*, which emphasizes raising the bar for software quality and developer professionalism.
+
+### 8. John Ferguson Smart
+
+[John Ferguson Smart](https://johnfergusonsmart.com/)  
+John Ferguson Smart is a globally respected speaker, consultant, and trainer in Agile practices, specializing in BDD,
+TDD, test automation, and team collaboration.He is the author of the best-selling book *BDD in Action*, along with
+*Jenkins: The Definitive Guide* and *Java Power Tools*.John helps teams deliver better software faster by improving
+collaboration and technical practices.He is also the creator and lead developer of Serenity BDD, a widely used
+open-source test automation framework.John is an active contributor to the software craftsmanship and open-source
+communities.His work focuses on making software development more effective, maintainable, and human-centric.
 
 ## Final Thoughts
 
