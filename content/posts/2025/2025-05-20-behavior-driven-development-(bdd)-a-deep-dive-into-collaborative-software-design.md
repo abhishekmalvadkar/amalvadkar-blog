@@ -45,6 +45,25 @@ At its core, BDD encourages:
 * Collaboration between devs, testers, and business
 * Test-first mindset
 
+### What is Gherkin?
+
+Gherkin is a domain-specific language designed to describe software behaviors without detailing how those behaviors are
+implemented. It uses a set of keywords like `Feature`, `Scenario`, `Given`, `When`, and `Then` to write executable
+specifications in plain English (or other spoken languages). This makes requirements understandable by all team members,
+from business analysts to developers and testers.
+
+**Example Gherkin snippet:**
+
+```gherkin
+Feature: User Login
+  Scenario: Successful login with valid credentials
+    Given the user is on the login page
+    When the user enters valid credentials
+    Then the user should be redirected to the dashboard
+```
+
+Because Gherkin scenarios are human-readable and structured, they serve as both documentation and automated tests.
+
 BDD is not just about automation—it's a **development workflow**.
 
 Developers can start by converting requirements into BDD-style scenarios. These scenarios then serve as references for
