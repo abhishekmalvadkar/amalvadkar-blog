@@ -1,5 +1,5 @@
 ---
-title: 'Spring Custom and Built in Events a Complete Guide'
+title: 'Spring Custom and Built in Events: A Complete Guide'
 author: Abhishek
 type: post
 date: 2025-05-20T12:02:07+05:30
@@ -226,4 +226,6 @@ confidence in our codebase. Events gave us the separation of concerns we despera
 
 Use Spring events to make your code readable, testable, and maintainable — not magical.
 
-Happy coding!
+That's it for today, will meet in next episode.  
+Happy coding :grinning:
+
