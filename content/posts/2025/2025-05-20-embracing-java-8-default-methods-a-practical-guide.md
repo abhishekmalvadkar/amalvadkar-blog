@@ -7,7 +7,7 @@ url: "/embracing-java-8-default-methods-a-practical-guide/"
 toc: true
 draft: false
 categories: [ "java" ]
-tags: [ "java 8 features" ]
+tags: [ "java-8-features" ]
 ---
 
 It was a regular Tuesday morning. The development team had gathered for the daily standup. Jane, the team’s lead

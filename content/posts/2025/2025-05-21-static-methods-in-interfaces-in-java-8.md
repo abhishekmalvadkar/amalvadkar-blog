@@ -7,7 +7,7 @@ url: "/static-methods-in-interfaces-in-java-8/"
 toc: true
 draft: false
 categories: [ "java" ]
-tags: [ "java 8 features" ]
+tags: [ "java-8-features" ]
 ---
 
 It was a rainy Monday morning, and our team was deep in the middle of refactoring an old legacy codebase. Rahul, a
