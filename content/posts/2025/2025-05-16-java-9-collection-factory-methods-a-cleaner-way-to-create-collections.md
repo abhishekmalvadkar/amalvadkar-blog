@@ -3,7 +3,7 @@ title: 'Java 9 Collection Factory Methods: A Cleaner Way to Create Collections'
 author: Abhishek
 type: post
 date: 2025-05-16T11:37:07+05:30
-url: "/java-9-collection-factory-methods-â-a-cleaner-way-to-create-collections/"
+url: "/java-9-collection-factory-methods-a-cleaner-way-to-create-collections/"
 toc: true
 draft: false
 categories: [ "java" ]
