@@ -7,7 +7,7 @@ url: "/the-importance-of-a-ubiquitous-language-glossary-in-software-projects/"
 toc: true
 draft: false
 categories: [ "domain-driven-design" ]
-tags: [ "domain-driven-design" ]
+tags: [ "ubiquitous-language" ]
 ---
 
 A few months ago, while working on a new microservice for an HRMS system, our backend team received a task to implement

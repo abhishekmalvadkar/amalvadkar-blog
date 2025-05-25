@@ -7,8 +7,8 @@ url: "/pragmatic-way-to-name-implementation-of-interface/"
 images: ["/preview-images/better-interface-implementation-name.webp"]
 toc: true
 draft : false
-categories: [clean code]
-tags: [clean code]
+categories: ["Clean Code And Refactoring"]
+tags: ["naming-is-hard"]
 ---
 
 In this blog, we will see different approaches of 

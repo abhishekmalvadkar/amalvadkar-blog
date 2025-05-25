@@ -7,7 +7,7 @@ url: "/mockist-vs-classist-approach-of-testing/"
 toc: true
 draft: false
 categories: [ "Testing" ]
-tags: [ "Testing", "Junit", "Mockito", "Best Practices" ]
+tags: [ "test-refactoring" ]
 ---
 
 In software development, testing is critical for ensuring that code works as expected. Over the years, there have been

@@ -7,7 +7,7 @@ url: "/test-doubles/"
 toc: true
 draft: false
 categories: [ "Testing" ]
-tags: [ "Testing", "Junit", "Best Practices", "AssertJ" ]
+tags: [ "test-refactoring" ]
 ---
 
 In the world of unit testing, one of the most important goals is to isolate the code being tested from its dependencies.

@@ -6,8 +6,8 @@ date: 2025-05-16T11:03:18+05:30
 url: "/spring-boot-tomcat-request-handling-thread-management-under-load/"
 toc: true
 draft: false
-categories: [ "system design", "spring boot" ]
-tags: [ "high-level-design" ]
+categories: ["spring boot" ]
+tags: [ "tomcat" ]
 ---
 
 It was a quiet morning until our product team deployed a new feature to production. Moments later, monitoring dashboards

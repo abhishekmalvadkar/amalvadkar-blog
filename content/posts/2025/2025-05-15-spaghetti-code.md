@@ -6,8 +6,8 @@ date: 2025-05-15T11:37:44+05:30
 url: "/spaghetti-code/"
 toc: true
 draft: false
-categories: [ "architecture" , "system design" ]
-tags: [ "architecture" , "low level design" ]
+categories: [ "architecture" ]
+tags: [ "low-level-design" ]
 ---
 
 A few years ago, during a production release weekend, we discovered a critical bug in a Spring Boot application. The

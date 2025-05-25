@@ -7,7 +7,7 @@ url: "/why-every-production-build-need-automated-regression-testing/"
 toc: true
 draft: false
 categories: [ "Testing" ]
-tags: [ "Testing", "Regression Testing" ]
+tags: [ "regression-testing" ]
 ---
 
 It was Friday evening, and the product team had just finished deploying a minor UI enhancement to the production

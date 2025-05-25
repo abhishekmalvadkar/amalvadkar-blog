@@ -8,7 +8,6 @@ images: ["/preview-images/short-break-is-gem.webp"]
 toc: true
 draft : false
 categories: [lesson learned]
-tags: [lesson learned]
 ---
 
 ## Problem

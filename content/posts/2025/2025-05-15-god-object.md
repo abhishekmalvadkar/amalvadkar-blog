@@ -6,8 +6,8 @@ date: 2025-05-15T11:28:56+05:30
 url: "/god-object/"
 toc: true
 draft: false
-categories: [ "architecture" , "system design" ]
-tags: [ "architecture" , "low level design" ]
+categories: [ "architecture" ]
+tags: [ "low-level-design" ]
 ---
 
 A few months ago, I was asked to debug a production issue in a legacy Spring Boot system. I opened the codebase and

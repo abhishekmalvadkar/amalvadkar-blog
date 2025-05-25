@@ -7,7 +7,7 @@ url: "/test-data-builders/"
 toc: true
 draft: false
 categories: [ "Testing" ]
-tags: [ "Testing", "Junit", "Best Practices", "AssertJ" ]
+tags: [ "test-refactoring" ]
 ---
 
 When writing unit tests in Java, you often need to create objects with many fields. Doing this repeatedly can make your

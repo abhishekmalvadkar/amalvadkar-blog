@@ -6,8 +6,7 @@ date: 2025-05-13T11:01:29+05:30
 url: "/avoiding-biginteger-pitfalls-in-spring-data-jpa-projections/"
 toc: true
 draft: false
-categories: [ "Debugging" ]
-tags: [ "Spring Data JPA" ]
+categories: [ "Spring Data JPA" ]
 ---
 
 Every real-world development experience teaches us something beyond the documentation. This post is about one such

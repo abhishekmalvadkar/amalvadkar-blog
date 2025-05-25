@@ -6,8 +6,8 @@ date: 2025-05-15T12:52:19+05:30
 url: "/the-power-of-coupling-understanding-its-impact-in-software-design/"
 toc: true
 draft: false
-categories: [ "architecture" , "system design" ]
-tags: [ "architecture" , "low level design" ]
+categories: [ "architecture" ]
+tags: [ "low-level-design" ]
 ---
 
 It was 2 AM. Our production monitoring system fired a high-priority alert. The billing microservice was down, and

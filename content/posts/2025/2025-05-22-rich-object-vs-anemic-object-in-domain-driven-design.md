@@ -7,7 +7,6 @@ url: "/rich-object-vs-anemic-object-in-domain-driven-design/"
 toc: true
 draft: false
 categories: [ "domain-driven-design" ]
-tags: [ "domain-driven-design" ]
 ---
 
 It all started when I joined a fintech startup as a senior developer. The team was under pressure to ship a loan

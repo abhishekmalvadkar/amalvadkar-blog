@@ -7,7 +7,7 @@ url: "/why-manual-production-monitoring-every-day-matters/"
 toc: true
 draft: false
 categories: [ "Observability and Monitoring" ]
-tags: [ "Production Monitoring" ]
+tags: [ "production-monitoring" ]
 ---
 
 It was a regular Wednesday morning. Our team received a panicked message: “Orders are dropping drastically—are we down?”

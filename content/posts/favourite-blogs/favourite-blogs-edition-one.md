@@ -7,7 +7,6 @@ url: "/favourite-blogs-edition-one/"
 toc: true
 draft: false
 categories: [ "Favourite Blogs" ]
-tags: [ "Favourite Blogs" ]
 ---
 
 As a software developer, I’m always on the lookout for blogs that go beyond surface-level tutorials and really dive into

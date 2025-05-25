@@ -5,8 +5,6 @@ type: page
 date : 2024-07-27T16:22:25+05:30
 url: "/videos/"
 toc : true
-tags: ["videos"]
-categories: ["videos"]
 ---
 
 ## [My YouTube Channel](https://www.youtube.com/@abhishekmalvadkar1896)

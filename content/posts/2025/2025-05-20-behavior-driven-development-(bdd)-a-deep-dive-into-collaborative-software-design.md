@@ -7,7 +7,7 @@ url: "/behavior-driven-development-(bdd)-a-deep-dive-into-collaborative-software
 toc: true
 draft: false
 categories: [ "Software Development Practices" ]
-tags: [ "Behavior Driven Development" ]
+tags: [ "behavior-driven-development" ]
 ---
 
 A few years ago, I joined a fintech startup that was pushing features at lightning speed. Despite the speed, the quality

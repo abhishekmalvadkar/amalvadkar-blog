@@ -6,8 +6,8 @@ date: 2025-05-13T11:21:04+05:30
 url: "/when-one-method-does-too-much-a-deep-dive-into-the-long-method-code-smell/"
 toc: true
 draft: false
-categories: [ "Refactoring" ]
-tags: [ "Code Smells" ]
+categories: [ "Clean Code And Refactoring" ]
+tags: [ "code-smells" ]
 ---
 
 As developers, we often start with simple logic and keep adding conditions, validations, and feature branches. What

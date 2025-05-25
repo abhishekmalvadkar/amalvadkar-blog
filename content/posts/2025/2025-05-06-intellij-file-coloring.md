@@ -7,7 +7,6 @@ url: "/intellij-file-coloring/"
 toc: true
 draft : false
 categories: ["Intellij IDEA"]
-tags: ["Intellij IDEA"]
 ---
 
 

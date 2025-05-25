@@ -7,7 +7,7 @@ url: "/understanding-how-hikaricp-works-internally-with-spring-boot/"
 toc: true
 draft: false
 categories: [ "spring boot" ]
-tags: [ "spring-transaction" , "connection-pool" ]
+tags: [ "spring-transaction" , "connection-pool", "hikari-cp" ]
 ---
 
 It was a busy Monday morning, and our microservices-based system was under heavy load. Suddenly, we started receiving

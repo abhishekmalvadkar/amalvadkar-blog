@@ -7,7 +7,7 @@ url: "/the-power-of-ubiquitous-language-in-domain-driven-design/"
 toc: true
 draft: false
 categories: [ "domain-driven-design" ]
-tags: [ "domain-driven-design" ]
+tags: [ "ubiquitous-language"  ]
 ---
 
 It was a Monday morning when our product owner walked into our team’s stand-up meeting and casually mentioned, "We need

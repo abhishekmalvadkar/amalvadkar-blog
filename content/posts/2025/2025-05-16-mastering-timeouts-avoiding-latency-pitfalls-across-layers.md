@@ -6,8 +6,8 @@ date: 2025-05-16T10:39:19+05:30
 url: "/mastering-timeouts-avoiding-latency-pitfalls-across-layers/"
 toc: true
 draft: false
-categories: [ "system design", "architecture" ]
-tags: [ "high-level-design" ]
+categories: [ "architecture" ]
+tags: [ "high-level-design" , "timeout"]
 ---
 
 It was a quiet production day—until it wasn’t.

@@ -7,7 +7,7 @@ url: "/hikaricp-logging-demystified-understand-what-is-happening-inside-your-con
 toc: true
 draft: false
 categories: [ "spring boot" ]
-tags: [ "spring-transaction" , "connection-pool" ]
+tags: [ "spring-transaction" , "connection-pool", "hikari-cp" ]
 ---
 
 It was a peaceful Tuesday morning. Our team was just recovering from a weekend release when we started getting pings

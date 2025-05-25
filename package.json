@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "create": "hugo new",
+    "hugo:clean": "rm -rf build resources public",
+    "clean": "npm run hugo:clean",
     "hugo:serve": "hugo server -D",
     "images:optimize": "node scripts/optimize-images.mjs",
     "dev": "npm run images:optimize && npm run hugo:serve",

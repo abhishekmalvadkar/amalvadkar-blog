@@ -7,8 +7,8 @@ url: "/let-us-talk-about-private-methods-unit-testing/"
 images: ["/preview-images/private-method-unit-testing.webp"]
 toc: true
 draft : false
-categories: [testing]
-tags: [unit testing]
+categories: ["testing"]
+tags: ["unit testing"]
 ---
 
 ## Introduction

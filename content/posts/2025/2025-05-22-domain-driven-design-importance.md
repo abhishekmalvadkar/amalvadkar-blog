@@ -7,7 +7,6 @@ url: "/domain-driven-design-importance/"
 toc: true
 draft: false
 categories: [ "domain-driven-design" ]
-tags: [ "domain-driven-design" ]
 ---
 
 A few years ago, while working on a large e-commerce application with multiple microservices in Java and Spring Boot,
