@@ -7,6 +7,7 @@ url: "/avoiding-biginteger-pitfalls-in-spring-data-jpa-projections/"
 toc: true
 draft: false
 categories: [ "Spring Data JPA" ]
+tags: ["jpa-troubleshooting"]
 ---
 
 Every real-world development experience teaches us something beyond the documentation. This post is about one such
