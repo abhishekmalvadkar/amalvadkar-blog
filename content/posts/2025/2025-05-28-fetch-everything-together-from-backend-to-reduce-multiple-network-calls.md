@@ -78,8 +78,6 @@ This often requires a backend orchestration layer that:
 **Explanation:**
 One API call serves all required data. Internally, the backend orchestrates the calls and composes the response.
 
----
-
 ### 2. Mobile App Home Screen
 
 **Before FET:**
@@ -96,8 +94,6 @@ One API call serves all required data. Internally, the backend orchestrates the 
 **Explanation:**
 For mobile, minimizing network usage and battery is crucial. A single call improves cold start performance and avoids
 race conditions.
-
----
 
 ### 3. E-commerce Product Detail Page
 
@@ -123,8 +119,6 @@ race conditions.
 
 **Explanation:**
 Provides all product detail context with just one API, reducing latency and complexity.
-
----
 
 ## Best Practices
 
