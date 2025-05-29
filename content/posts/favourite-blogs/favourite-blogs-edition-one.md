@@ -95,6 +95,58 @@ collaboration and technical practices.He is also the creator and lead developer 
 open-source test automation framework.John is an active contributor to the software craftsmanship and open-source
 communities.His work focuses on making software development more effective, maintainable, and human-centric.
 
+### 9. Vlad Khononov
+
+[Vlad Khononov](https://vladikk.com/)  
+Vladik (Vlad) Khononov is a software engineer with over 15 years of experience, ranging from webmaster to chief
+architect. He is a strong advocate of Domain-Driven Design and evolutionary architecture, helping companies untangle
+monoliths and make sense of complex business domains. Vlad is a frequent speaker at international conferences like
+O’Reilly Software Architecture, DDD Europe, and NDC. He is the author of "Learning Domain-Driven Design" and "Balancing
+Coupling in Software Design", both of which offer practical insights into building robust and maintainable software
+systems. Vlad actively contributes to the software architecture community through blogging, public speaking, and
+organizing meetups like DDD Israel and Tel Aviv Software Architecture.
+
+### 10. Zhiyong Tan
+
+[Zhiyong Tan](https://www.manning.com/authors/zhiyong-tan)  
+Zhiyong Tan is the author of "Acing the System Design Interview". He is the founder of Tingxie, an app for learning
+Chinese as a second language. Previously, he was an Engineering Manager and Staff Engineer at PayPal, a senior software
+engineer at Uber, and a software and data engineer at various startups.
+
+### 11. Srihari Sridharan
+
+[Srihari Sridharan](https://topmate.io/srihari_sridharan)  
+Srihari Sridharan is a software architect and the author of “Craft Your Code”.He is a speaker, conducting courses and
+delivering talks on software craftsmanship and writing clean code. Srihari’s areas of expertise encompass refactoring,
+design patterns, enterprise
+application architectural patterns, integration patterns, and cloud-native design patterns.
+
+### 12. Evelyn Van Kelle
+
+[Evelyn Van Kelle](https://evelynvankelle.com/)  
+Evelyn van Kelle is a strategic software delivery consultant specializing in socio-technical systems. She combines
+Domain-Driven Design, collaborative modeling, and behavioral and social sciences to guide organizations through
+sustainable transformations. Evelyn frequently speaks at international conferences and is co-author of "Collaborative
+Software Design: How to Facilitate Domain Modeling Decisions", a practical guide for enabling effective domain modeling
+in teams.
+
+### 13. Michael Keeling
+
+[Michael Keeling](https://www.neverletdown.net/)  
+Michael Keeling is a software engineer at Kiavi and the author of "Design It!: From Programmer to Software Architect".
+Prior to Kiavi, he worked at IBM on the Watson Discovery Service and has experience with a variety of software systems
+including service-oriented architectures, enterprise search systems, and even combat systems. Michael is an
+award-winning speaker and regularly participates in the architecture and agile communities. He holds a Masters in
+Software Engineering from Carnegie Mellon University and a BS in Computer Science from the College of William and Mary.
+His current research interests include software design methods, patterns, and human factors of software engineering.
+
+### 14. Mark Seemann
+
+[Mark Seemann](https://blog.ploeh.dk/)  
+Mark Seemann is an acclaimed author, international speaker, and a highly experienced developer.Mark
+shared insights in his latest book, “Code That Fits in Your Head”, on how to write sustainable software and
+manage software complexity.
+
 ## Final Thoughts
 
 These blogs represent a variety of perspectives and specializations in software development. I’ll be updating this list
