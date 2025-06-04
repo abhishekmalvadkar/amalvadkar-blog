@@ -7,7 +7,7 @@ url: "/compression-a-the-silent-hero-of-scalable-systems/"
 toc: true
 draft: false
 categories: [ "system design" ]
-tags: [ "compression" ]
+tags: [ "compression", "performance-optimization" ]
 ---
 
 A few years ago, I was working on an e-commerce application for a festive sale event. Everything was running smoothly in
