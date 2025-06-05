@@ -6,7 +6,7 @@ date: 2025-06-05T11:46:18+05:30
 url: "/demystifying-ssh-the-invisible-thread-that-connects-devops-systems/"
 toc: true
 draft: false
-categories: [ "system design" ]
+categories: [ "security" ]
 tags: [ "ssh" ]
 ---
 
