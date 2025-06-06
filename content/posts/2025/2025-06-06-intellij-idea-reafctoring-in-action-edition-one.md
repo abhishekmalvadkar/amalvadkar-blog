@@ -1,5 +1,5 @@
 ---
-title: 'Intellij Idea Refactoring in Action (Edition One)'
+title: 'Intellij IDEA Refactoring in Action (Edition One)'
 author: Abhishek
 type: post
 date: 2025-06-06T11:07:53+05:30
